@@ -1,0 +1,25 @@
+.header {
+    text-align:center;
+}
+.emoji-container {
+    width:140px;
+    height:140px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:0 auto;
+    background-color:white;
+    border-radius:20px;
+    border:1px grey solid;
+    box-shadow:0px 4px 6px rgba(0,0,0,0.1)
+}
+.emoji-picker {
+    width:fit-content;
+    border:1px solid grey;
+    padding:10px;
+    border-radius:10px;
+}
+.emoji-option {
+    font-size:24px;
+    
+}
