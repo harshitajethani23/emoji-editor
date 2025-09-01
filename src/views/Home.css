@@ -1,25 +1,57 @@
 .header {
     text-align:center;
 }
+.body {
+    background-color:aqua
+}
 .emoji-container {
     width:140px;
     height:140px;
     display:flex;
     justify-content:center;
     align-items:center;
-    margin:0 auto;
-    background-color:white;
+    margin:30px auto;
+    
     border-radius:20px;
-    border:1px grey solid;
+    
     box-shadow:0px 4px 6px rgba(0,0,0,0.1)
 }
 .emoji-picker {
     width:fit-content;
-    border:1px solid grey;
-    padding:10px;
+     padding:10px;
     border-radius:10px;
+    display:flex;
+    margin:  auto;
+    margin-top:50px;
 }
 .emoji-option {
-    font-size:24px;
+    font-size:30px;
+    padding:10px;
+    cursor:pointer;
     
+
 }
+.emoji-option:hover {
+    background-color: #e6ccff;
+    border-radius:5px;
+
+}
+.header-1 {
+    text-align:center;
+    margin:-5px;
+}
+.slider-container {
+   display:flex;
+   justify-content:center;
+   
+   
+}
+.slider {
+    accent-color:#e6ccff;;
+}
+.header-2 {
+    text-align:center;
+    margin:-5px;
+}
+
+ 
